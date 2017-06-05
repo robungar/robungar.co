@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "server": false,
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean && gulp prod",
+    "postinstall": "npm run build",
+    "dev": "node www/server"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "turbo360": "latest"
+  },
+  "devDependencies": {
+    "express": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-less": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-rename": "latest",
+    "gulp-uglify": "latest"
+  },
+  "deploy": [
+    "index.html",
+    "dist"
+  ],
+  "app": "592c4b3a9de79a0011ab7981"
+}
