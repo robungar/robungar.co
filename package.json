@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "animate.css": "^3.5.2",
-    "turbo360": "latest"
+    "turbo360": "^1.1.19"
   },
   "devDependencies": {
     "express": "latest",
